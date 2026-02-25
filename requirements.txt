@@ -1,0 +1,6 @@
+dash>=3.0
+plotly>=6.0
+dash-bootstrap-components>=1.6
+pandas>=2.0
+numpy>=1.24
+gunicorn>=21.0

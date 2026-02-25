@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+html, body {
+  font-family: "Merriweather", Georgia, "Times New Roman", serif !important;
+  font-weight: 400 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand {
+  font-family: "Lato", system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  font-weight: 700 !important;
+}
+
+
+/* ===============================
+   ETHMIG / EMM Playground – Navbar
+   =============================== */
+
+/* Force the top bar to BRAND BLUE */
+.navbar,
+.navbar.navbar-light,
+.navbar.navbar-expand,
+.navbar.navbar-expand-lg,
+.navbar.bg-light,
+.navbar.bg-body-tertiary {
+  background-color: #009DE0 !important;
+}
+
+/* Brand + menu text in white */
+.navbar .navbar-brand,
+.navbar .navbar-brand:visited,
+.navbar .navbar-brand:hover,
+.navbar .nav-link,
+.navbar .nav-link:visited,
+.navbar .nav-link:hover {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+
+
+/* ===============================
+   Menu button – BRAND GREEN
+   =============================== */
+
+   .navbar-toggler {
+    background-color: #379E85 !important;   /* ETHMIG green */
+    border-color: #379E85 !important;
+  }
+  
+  /* White hamburger icon */
+  .navbar-toggler-icon {
+    filter: invert(1) brightness(2);
+  }
+  
+  /* Hover / focus: slightly darker green */
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    background-color: #2f8873 !important;   /* darker green */
+    border-color: #2f8873 !important;
+    box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.4);
+  }
+
+/* Make hamburger icon white */
+.navbar-toggler-icon {
+  filter: invert(1) brightness(2);
+}
+
+/* Hover / focus states */
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: #009DE0 !important;
+  box-shadow: 0 0 0 0.15rem rgba(255, 255, 255, 0.4);
+}
+
+/* Exclusion message (fewer than 25 responses) — always red, both surveys */
+.excl-msg {
+  color: #b33 !important;
+  font-size: 0.85rem !important;
+  white-space: pre-wrap !important;
+  margin: 6px 0 !important;
+  font-weight: 600 !important;
+}
